@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9A4F9858279353140008DB01 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F9857279353140008DB01 /* BackgroundImageView.swift */; };
 		9A4F985A2793543C0008DB01 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F98592793543C0008DB01 /* NewTaskItemView.swift */; };
+		9A4F985C279358950008DB01 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F985B279358950008DB01 /* BlankView.swift */; };
+		9A4F985E27935D620008DB01 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4F985D27935D610008DB01 /* ListRowItemView.swift */; };
 		9AA826B02780CFC6001EE70E /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA826AF2780CFC6001EE70E /* DevoteApp.swift */; };
 		9AA826B22780CFC6001EE70E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA826B12780CFC6001EE70E /* ContentView.swift */; };
 		9AA826B42780CFCA001EE70E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA826B32780CFCA001EE70E /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		9A4F9857279353140008DB01 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		9A4F98592793543C0008DB01 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		9A4F985B279358950008DB01 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		9A4F985D27935D610008DB01 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		9AA826AC2780CFC6001EE70E /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA826AF2780CFC6001EE70E /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		9AA826B12780CFC6001EE70E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				9AA826B12780CFC6001EE70E /* ContentView.swift */,
 				9A4F9857279353140008DB01 /* BackgroundImageView.swift */,
 				9A4F98592793543C0008DB01 /* NewTaskItemView.swift */,
+				9A4F985B279358950008DB01 /* BlankView.swift */,
+				9A4F985D27935D610008DB01 /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,7 +227,9 @@
 				9A4F9858279353140008DB01 /* BackgroundImageView.swift in Sources */,
 				9AA826B22780CFC6001EE70E /* ContentView.swift in Sources */,
 				9AA826D62780D62D001EE70E /* HideKeyboardExtension.swift in Sources */,
+				9A4F985C279358950008DB01 /* BlankView.swift in Sources */,
 				9AA826D22780D2E3001EE70E /* Constant.swift in Sources */,
+				9A4F985E27935D620008DB01 /* ListRowItemView.swift in Sources */,
 				9AA826BC2780CFCA001EE70E /* Devote.xcdatamodeld in Sources */,
 				9AA826B02780CFC6001EE70E /* DevoteApp.swift in Sources */,
 				9A4F985A2793543C0008DB01 /* NewTaskItemView.swift in Sources */,
